@@ -1,0 +1,21 @@
+========== README ==========
+Simple Food Shop Application
+============================
+
+Project structure:
+
+foodshop
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- org
+    |           `-- javaart
+    |               `-- foodshop
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- org
+                `-- javaart
+                    `-- foodshop
+                        `-- AppTest.java
