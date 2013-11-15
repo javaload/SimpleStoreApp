@@ -1,5 +1,6 @@
 package org.javaart.foodshop.api;
 
+import org.javaart.foodshop.core.Image;
 import org.javaart.foodshop.core.ProductDiscount;
 
 import java.math.BigDecimal;
@@ -38,4 +39,8 @@ public interface Product {
     void setProductDiscount(ProductDiscount productDiscount);
 
     ProductDiscount getProductDiscount();
+
+    Image getProductImage();
+
+    void setProductImage(Image productImage);
 }
