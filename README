@@ -1,4 +1,4 @@
-========== README ==========
+============================
 Simple Food Shop Application
 ============================
 
@@ -19,3 +19,13 @@ foodshop
                 `-- javaart
                     `-- foodshop
                         `-- AppTest.java
+						
+
+						
+Before commit(!)
+1) Checkout latest project version from repository
+2) Merge if any files are in conflict state
+3) Check that project compile successfully
+4) Check that ALL unit-tests pass
+5) Add unit tests for all new logic you commit
+6) Commit your changes with meaningful description message (story number, what is added/changed in general) 
