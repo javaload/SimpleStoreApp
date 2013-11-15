@@ -29,7 +29,7 @@ public class CartTest {
         discountCalculator.calculateDiscount(apples);
         clientCart.addProducts(apples, 9);
 
-        Assert.assertEquals("810.000", clientCart.getTotalPrice());
+        Assert.assertEquals(new BigDecimal("810.000"), clientCart.getTotalPrice());
 
     }
 
@@ -48,7 +48,7 @@ public class CartTest {
         clientCart.addProducts(bananas, 14);
         clientCart.addProducts(apples, 2);
 
-        Assert.assertEquals("1380.00", clientCart.getTotalPrice());
+        Assert.assertEquals(new BigDecimal("1380.0000"), clientCart.getTotalPrice());
     }
 
     @org.junit.Test
@@ -66,7 +66,7 @@ public class CartTest {
         clientCart.addProducts(bananas, 1);
         clientCart.addProducts(apples, 10);
 
-        Assert.assertEquals("1050", clientCart.getTotalPrice());
+        Assert.assertEquals(new BigDecimal("1050.0000"), clientCart.getTotalPrice());
     }
 
     @org.junit.Test
@@ -81,7 +81,7 @@ public class CartTest {
 
         clientCart.addProducts(bananas, 7);
 
-        Assert.assertEquals("630", clientCart.getTotalPrice());
+        Assert.assertEquals(new BigDecimal("630"), clientCart.getTotalPrice());
     }
 
 
