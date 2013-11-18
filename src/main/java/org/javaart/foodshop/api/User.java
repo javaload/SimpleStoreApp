@@ -7,8 +7,17 @@ public abstract class User {
 	String password;
 	String address;
 	String phone;
-	
-	//auto-generated getters and setters for all fields
+
+    protected User(double id, String name, String login, String password, String address, String phone) {
+        this.id = id;
+        this.name = name;
+        this.login = login;
+        this.password = password;
+        this.address = address;
+        this.phone = phone;
+    }
+
+    //auto-generated getters and setters for all fields
 	public double getId() {
 		return id;
 	}
