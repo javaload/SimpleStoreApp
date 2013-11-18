@@ -13,6 +13,6 @@ private int imageWidth = 300;
 private int imageHight = 250;
 
 
-    //TODO: Wrap java.swing.image
+    //TODO: Wrap java.swing.image how
 
 }
